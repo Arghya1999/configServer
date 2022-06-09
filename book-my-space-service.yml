@@ -1,1 +1,10 @@
-
+ datasource:
+    driverClassName: org.h2.Driver
+    password: password
+    url: jdbc:h2:mem:bookmyspace
+    username: sa
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
