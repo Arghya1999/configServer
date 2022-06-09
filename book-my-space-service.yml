@@ -8,3 +8,7 @@
     hibernate:
       ddl-auto: update
     show-sql: true
+  server:
+   error:
+    include-message: always
+   port: 8081
